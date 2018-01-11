@@ -1,3 +1,3 @@
-# vedantbot
+# hqtriviabot
 
-Random quotes from Vedant's favorite scifi series.
+Slack bot that gives really useful tips for whenever you're in a jam.
