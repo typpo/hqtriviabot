@@ -16,7 +16,7 @@ app.debug = True
 def get_resp(text):
     quote = random.choice(QUOTES)
     question = random.choice(QUESTIONS)
-    return {'text': "%s Here's a tip! *%s*" % (question, quote)}
+    return {'text': "%s Here's a useful tip: *%s*" % (question, quote)}
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
