@@ -1,7 +1,7 @@
 QUOTES = [
     'Connect to fast Wi-Fi',
     'Stay chill in the heat',
-    'Don't ruin the vibes',
+    'Don\'t ruin the vibes',
     'Welcome to the game',
     'Plug into a power source',
     'No smoking',
