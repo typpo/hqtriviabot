@@ -8,14 +8,15 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 
-from quotes import QUOTES
+from quotes import QUOTES, QUESTIONS
 
 app = Flask(__name__)
 app.debug = True
 
 def get_resp(text):
     quote = random.choice(QUOTES)
-    return {'text': 'Tip: %s' % (quote)}
+    question = random.choice(QUESTIONS)
+    return {'text': "%s Here's a tip! *%s*" % (question, quote)}
 
 @app.route('/', methods=['GET', 'POST'])
 def index():

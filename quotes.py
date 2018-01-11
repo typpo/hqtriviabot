@@ -9,3 +9,11 @@ QUOTES = [
     'Find a smart friend',
     'No smoking',
 ]
+
+QUESTIONS = [
+    'Need some help?',
+    'In a pickle?',
+    'Feeling stuck?',
+    'Looking for guidance?',
+    'Seeking assistance?',
+]
